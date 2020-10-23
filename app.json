@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "geoquiz-react-native",
-    "slug": "geoquiz-react-native",
+    "name": "geoquiz",
+    "slug": "geoquiz",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/planet-earth.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -13,14 +13,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "androidStatusBar": {
+      "backgroundColor": "#FFFFFF",
+      "translucent": true,
+      "barStyle": "dark-content"
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/globe_1.png"
     }
   }
 }
